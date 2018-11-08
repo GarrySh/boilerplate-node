@@ -1,3 +1,6 @@
+plugins:
+  - jest
+
 env:
   node: true
   jest: true
@@ -7,7 +10,8 @@ parserOptions:
   sourceType: module
 
 extends:
-  - 'airbnb-base'
+  - airbnb-base
+  - plugin:jest/recommended
 
 rules:
   no-console: 0

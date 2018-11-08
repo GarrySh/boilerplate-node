@@ -4,6 +4,6 @@ Boilerplate config for new Node.JS projects
 
 ## Setup
 
-````sh
+```sh
 make install
-````
+```
