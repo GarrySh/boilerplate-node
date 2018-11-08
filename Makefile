@@ -1,24 +1,24 @@
 install:
-	npm install
+	yarn install
 
 start:
-	npm run babel-node -- src/bin/index.js
+	yarn run babel-node -- src/bin/index.js
 
 publish:
-	npm publish
+	yarn publish
 
 lint:
-	npm run eslint .
+	yarn run eslint .
 
 test:
-	npm test
+	yarn test
 
 watch:
-	npm test -- --watch
+	yarn test --watch
 
 build:
 	rm -rf dist
-	npm run build
+	yarn run build
 	chmod +x dist/bin/*
 
 clear:
