@@ -19,7 +19,7 @@ watch:
 build:
 	rm -rf dist
 	yarn run build
-	chmod +x dist/bin/*
+	# chmod +x dist/bin/*
 
 clear:
 	rm -rf dist

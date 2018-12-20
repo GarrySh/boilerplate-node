@@ -1,10 +1,10 @@
 {
-  "name": "project-clear",
+  "name": "project-node-boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "boilerplate for node project",
   "main": "dist/index.js",
   "engines": {
-    "node": ">=10.13",
+    "node": ">=10.14.2",
     "yarn": ">=1"
   },
   "scripts": {
@@ -12,31 +12,41 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "babel-node": "babel-node",
     "prepublishOnly": "npm run build",
-    "eslint": "eslint"
+    "eslint": "eslint",
+    "lint-staged": "lint-staged"
   },
+  "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.5",
-    "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.5",
-    "babel-core": "^7.0.0-bridge.0",
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
-    "eslint": "^5.8.0",
+    "eslint": "^5.10.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-jest": "^22.1.2",
     "istanbul": "^0.4.5",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
-    "regenerator-runtime": "^0.12.1"
-  },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GarrySh/project-clear.git"
+    "lint-staged": "^8.1.0",
+    "pre-commit": "^1.2.2",
+    "regenerator-runtime": "^0.13.1"
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "browserslist": [
+    "current node"
+  ],
+  "pre-commit": "lint-staged",
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrySh/project-clear.git"
   },
   "author": "Garry Sh",
   "license": "ISC",
