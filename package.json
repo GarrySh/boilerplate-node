@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GarrySh/project-clear.git"
+    "url": "git+https://github.com/GarrySh/boilerplate-node.git"
   },
   "author": "Garry Sh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GarrySh/project-clear/issues"
+    "url": "https://github.com/GarrySh/boilerplate-node/issues"
   },
-  "homepage": "https://github.com/GarrySh/project-clear#readme"
+  "homepage": "https://github.com/GarrySh/boilerplate-node"
 }
