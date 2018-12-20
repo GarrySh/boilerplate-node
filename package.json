@@ -1,5 +1,5 @@
 {
-  "name": "project-node-boilerplate",
+  "name": "boilerplate-node",
   "version": "0.0.1",
   "description": "boilerplate for node project",
   "main": "dist/index.js",
