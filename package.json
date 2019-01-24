@@ -25,13 +25,16 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.10.0",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
     "istanbul": "^0.4.5",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
     "lint-staged": "^8.1.0",
     "pre-commit": "^1.2.2",
+    "prettier": "^1.16.1",
     "regenerator-runtime": "^0.13.1"
   },
   "jest": {

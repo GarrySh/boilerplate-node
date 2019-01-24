@@ -2,7 +2,7 @@ install:
 	yarn install
 
 start:
-	yarn run babel-node -- src/bin/index.js
+	yarn run babel-node src/index.js
 
 publish:
 	yarn publish
